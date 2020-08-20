@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Getting started vue.js</title>
+</head>
+<body>
+    <div id='app'>
+        <div>
+            <input type="text" v-model='name'/>
+            <h3>Hello, {{ name }}</h3>
+        </div>
+    </div>
+    <script type='text/javascript' src='https://unpkg.com/vue/dist/vue.js'></script>
+    <script>
+    // vue works with MVVM (Model view viewmodel)
+        new Vue({
+            template: '#app',
+            data: function() {
+                return {
+                    name: ''
+                }
+            }
+        }).$mount('#app');
+    </script>
+</body>
+</html>
