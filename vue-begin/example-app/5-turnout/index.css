@@ -1,0 +1,14 @@
+#app {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3350;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.signout-btn {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
