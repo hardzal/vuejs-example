@@ -1,19 +1,18 @@
-# Step 
+# Step
 
 1. Installation vue-cli
-   
-    ``npm install -g vue-cli``
+
+   `npm install -g vue-cli`
 
 2. Installation Project
 
-    ``vue init webpack scotch-store``
+   `vue init webpack scotch-store`
 
-format ``vue init [template] [project-name]``
+format `vue init [template] [project-name]`
 
 3. install package and running development
-    ``cd online-store``
-    ``npm install``
-    ``npm run dev``
+   `cd online-store`
+   `npm install`
+   `npm run dev`
 
-4. 
-
+4.

@@ -1,0 +1,9 @@
+- npm init
+- npm install --save-dev webpack-cli webpack
+- npm install --save-dev babel-core babel-loader babel-preset-env @babel/core
+- npm install core-js
+- npm run dev
+- npm install --save-dev vue-loader
+- npm install --save-dev vue-template-compiler css-loader vue-style-loader
+- npm install --save-dev webpack-dev-server
+- npm install --save-dev vue-hot-reload-api

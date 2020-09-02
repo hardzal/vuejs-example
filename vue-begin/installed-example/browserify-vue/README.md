@@ -1,0 +1,5 @@
+- npm init
+- npm install vue
+- npm install browserify
+- masukkan command build browserify pada package.json
+- npm run build

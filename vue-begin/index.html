@@ -6,7 +6,7 @@
     <title>Document</title>
     <style type="text/css">
       #app {
-        font-family: "Avenir", Helvetica, Arial, sans-serif;
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
@@ -44,14 +44,59 @@
 
   <body>
     <div id="app">
-      {{ text }}
+      Original: {{ text }}<br />
+      Filters: {{ text | upper}}<br />
+      Methods: {{ upper(text) }}<br />
+      Computed: {{ textToUpper }}
     </div>
 
     <script type="text/javascript">
       let app = new Vue({
-        el: "#app",
+        el: '#app',
         data: {
-          text: "Hello, Vue!",
+          text: 'Hello, Vue!',
+        },
+        beforeCreate() {
+          // hook
+          console.log('befrore text', this.text);
+        },
+        created() {
+          // hook
+          console.log('created text: ', this.text);
+        },
+        beforeMount() {
+          console.log('before mounted element el id: ', this.$el.textContent);
+        },
+        mounted() {
+          console.log('mounted element el id: ', this.$el.textContent);
+        },
+        beforeUpdate() {
+          console.log('before updated element el id: ', this.$el.textContent);
+        },
+        updated() {
+          // akan muncul setelah data di element diperbaharui
+          console.log('updated element el id: ', this.$el.textContent);
+        },
+        beforeDestroy() {
+          console.log('before destroy'); // sebelum didestroy // harus memanggil app.destroyed() // data akan kembali direset
+        },
+        destroyed() {
+          console.log('destroyed');
+        },
+        methods: {
+          upper(text) {
+            return text.toUpperCase();
+          },
+        },
+        computed: {
+          textToUpper() {
+            return this.text.toUpperCase();
+          },
+        },
+        filters: {
+          upper(text) {
+            return text.toUpperCase();
+          },
         },
       });
     </script>
