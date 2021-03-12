@@ -45,7 +45,7 @@ yarn global add @vue/cli
 ## start create app
 
 ```
-vue create-project my-app
+vue create my-app
 ```
 
 atau

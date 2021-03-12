@@ -1,5 +1,6 @@
 # Vuejs-guides
 
+- npm i -g @vue/cli
 - vue install -g @vue/cli
 - vue init webpack-simple appName
 - npm install
@@ -8,6 +9,10 @@
 - npm install firebase
 - VueRouter
 - VueX
+
+### untuk update
+
+- npm update -g @vue/cli
 
   - VueX sebuah library untuk mengatur state management pattern.
   - VueX memusatkan state ke dalam satu global scope untuk aplikasi tersebut.
