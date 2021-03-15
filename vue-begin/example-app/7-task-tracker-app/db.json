@@ -1,22 +1,22 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Learning Vue",
-      "day": "March 9th at 11:00am",
+      "id": 3,
+      "text": "Learning Machine Learning",
+      "day": "March 15th at 11:00 am",
       "reminder": false
     },
     {
-      "id": 2,
-      "text": "Learning Laravel",
-      "day": "March 10th at 10:00am",
+      "id": 85152,
+      "text": "Learning a new something",
+      "day": "Tuesday, 15:00 AM",
       "reminder": true
     },
     {
-      "id": 3,
-      "text": "Learning Lumen",
-      "day": "March 11th at 11:00 am",
-      "reminder": true
+      "text": "Hello",
+      "day": "Tuesday, 15:00 AM",
+      "reminder": false,
+      "id": 85154
     }
   ]
 }
