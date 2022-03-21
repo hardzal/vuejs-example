@@ -71,3 +71,37 @@ format `vue init [template] [project-name]`
    `npm install`
    `npm run dev`
 
+
+---
+# Vuejs-guides
+
+- npm i -g @vue/cli
+- vue install -g @vue/cli
+- vue init webpack-simple appName
+- npm install
+- npm install vue-router --save
+- npm install vuex --save
+- npm install firebase
+- VueRouter
+- VueX
+
+### untuk update
+
+- npm update -g @vue/cli
+
+  - VueX sebuah library untuk mengatur state management pattern.
+  - VueX memusatkan state ke dalam satu global scope untuk aplikasi tersebut.
+    - Thee Items
+      - The Store: Creates the global state object
+      - Mutations: change the state
+      - Actions: commit mutations
+
+- Props
+- Property
+  - Methods: layaknya method yang dibutton, memiliki parameter
+  - Computed: return value tanpa memiliki parameter.
+  - Filters
+  - template
+  - data:
+  - data()
+
